@@ -10,7 +10,7 @@ server.get("/", (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(process.env.MY_ENV);
+  console.log(process.env.QWERTY);
   console.log(
     `server is runnning on port ${PORT}, user is ${process.env.USER}!`
   );
